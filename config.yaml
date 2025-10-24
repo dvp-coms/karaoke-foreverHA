@@ -1,0 +1,7 @@
+name: "Karaoke Forever for HA"
+version: "1"
+slug: foldkaraoke-foreverHA
+description: >-
+  "Home Assistant version of Karaoke Forever"
+arch:
+  - amd64
