@@ -1,7 +1,7 @@
 ARG BUILD_FROM
-FROM https://hub.docker.com/r/radrootllc/karaoke-eternal:latest
 FROM $BUILD_FROM
 
+RUN apk add --no-cache docker-cli
 # Copy data for add-on
 COPY run.sh /
 RUN chmod a+x /run.sh
