@@ -3,7 +3,7 @@ version: "1"
 slug: karaokeforeverHA
 description: >-
   "Home Assistant version of Karaoke Forever"
-arch: [amd64, aarch64, armv7, i386]
+arch: amd64
 init: false
 startup: services
 host_network: true
