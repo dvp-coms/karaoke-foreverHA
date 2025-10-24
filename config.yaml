@@ -1,6 +1,6 @@
 name: "Karaoke Forever for HA"
 version: "8"
-slug: foldkaraokeforeverHA
+slug: karaokeforeverHA
 description: >-
   "Home Assistant version of Karaoke Forever"
 arch:
