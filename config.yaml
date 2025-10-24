@@ -1,6 +1,16 @@
 name: "Karaoke Forever for HA"
-version: "10"
+version: "11"
 slug: karaokeforeverHA
 description: >-
   "Home Assistant version of Karaoke Forever"
 arch: [amd64, aarch64, armv7, i386]
+init: false
+startup: services
+host_network: true
+homeassistant_api: true
+video: false
+audio: false
+ingress: true
+ingress_port: 80
+ports:
+  80/tcp: 80
