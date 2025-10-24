@@ -14,4 +14,3 @@ ingress: true
 ingress_port: 80
 ports:
   80/tcp: 80
-image: "ghcr.io/home-assistant/{arch}-karaokeforeverHA"
