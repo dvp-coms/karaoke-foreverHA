@@ -1,3 +1,2 @@
 #!/usr/bin/with-contenv bashio
-npm i
-npm run dev
+node server/main.js -3000
