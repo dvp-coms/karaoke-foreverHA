@@ -1,5 +1,5 @@
 name: "Karaoke Forever for HA"
-version: "17"
+version: "18"
 slug: karaokeforeverHA
 description: >-
   "Home Assistant version of Karaoke Forever"
@@ -14,3 +14,4 @@ ingress: true
 ingress_port: 80
 ports:
   80/tcp: 80
+image: https://hub.docker.com/r/radrootllc/karaoke-eternal:latest
