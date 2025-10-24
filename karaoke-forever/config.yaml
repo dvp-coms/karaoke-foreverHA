@@ -1,5 +1,5 @@
 name: "Karaoke Forever for HA"
-version: "11"
+version: "25"
 slug: karaokeforeverHA
 description: >-
   "Home Assistant version of Karaoke Forever"
