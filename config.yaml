@@ -12,6 +12,7 @@ video: false
 audio: false
 ingress: true
 ingress_port: 80
-ports:
-  80/tcp: 80
-image: "dvp-coms/karaokeforeverHA"
+options:
+  image: "radrootllc/karaoke-eternal/v1.0.0:latest" # Default image to pull
+  ports:
+    8080/tcp: 8080 # Example port mapping
