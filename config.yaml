@@ -1,7 +1,6 @@
 name: "Karaoke Forever for HA"
-version: "9"
+version: "10"
 slug: karaokeforeverHA
 description: >-
   "Home Assistant version of Karaoke Forever"
-arch:
-  - amd64
+arch: [amd64, aarch64, armv7, i386]
