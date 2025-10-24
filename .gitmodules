@@ -1,0 +1,3 @@
+[submodule "my-karaoke-party"]
+	path = my-karaoke-party
+	url = https://github.com/dvp-coms/my-karaoke-party
